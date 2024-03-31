@@ -4,7 +4,7 @@ import {BrowserRouter} from "react-router-dom";
 import React from "react";
 import NewPoll from "./NewPoll";
 import { configureStore } from "@reduxjs/toolkit";
-import reducer from "../reducers";
+import reducer from "../reducers/indexReducer";
 
 const store = configureStore({reducer})
 

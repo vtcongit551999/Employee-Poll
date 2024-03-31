@@ -4,7 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import React from "react";
 import Navbar from "./Navbar";
 import { configureStore } from "@reduxjs/toolkit";
-import reducer from "../reducers/indexReducer";
+import reducer from "../../reducers/indexReducer";
 import { loginAuthedUser } from "../../actions/authedUserAction";
 
 const store = configureStore({ reducer })
